@@ -6,30 +6,30 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   </head>
-  <body>
+  <body style="background-image: url(img/1289206.jpg); background-size: 200%; background-attachment: fixed; background-repeat: no-repeat;">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand" href="#">Naufal RZ</a>
+        <a class="navbar-brand" href="#">Naufal RZ Portofolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Me</a>
+              <a class="nav-link" href="#about">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portofolio</a>
+              <a class="nav-link" href="#portofolio">Portofolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Achievement</a>
+              <a class="nav-link" href="#achievement">Achievement</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -38,14 +38,127 @@
  
     <!-- /Navbar -->
 
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center">
-      <img class="rounded-circle img-thumbnail" src="img/1289206.jpg" alt="pict" width="50%">
-      <h1 class="display-4">Hello, world!</h1>
-      <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero a numquam dolorem.</p>
+    <!-- Profile -->
+    
+    <section id="home" class="text-center text-bg-secondary bg-transparent" style="height: 450px;">
+      <div class="container-fluid pt-lg-5 pb-lg-5 bg-transparent" >
+        <div class="row">
+          <h1 class="display-1" style="padding-top: 100px;">Hello, world!</h1>
+        <p class="lead">Selamat datang di website portofolio sederhana saya</p>
+        </div>
+        
+      </div>
+      
     </section>
-    <!-- /Jumbotron -->
+    <!-- /Profile -->
 
+    <!-- About Me -->
+    <section id="about" class="text-center text-bg-light bg-light pt-4">
+        <div class="container">
+          
+          <h2 class="text-center mb-5">About Me</h2>
+          
+          <div class="row">
+            <div class="col-md-3 col-sm-5">
+              <img class="rounded float-start mx-auto " src="img/Pas Foto_.jpg" alt="pict" width="auto" height="50%">
+            </div>
+            <div class="col-md-9 col-sm-7">
+              <p style="text-align: justify;">Nama saya adalah Naufal Rifqi Zuhrian. Saya kuliah di Universitas Bumigora jurusan S1 Rekayasa Perangkat Lunak. Saat website ini dibuat saya masih menjalani semester 6. Saya dulunya tinggal di Sumbawa dan sekarang karena alasan kuliah saya tinggal di Lombok Barat.
+            </p>
+            <p style="text-align: justify;">    
+              Mengenai hobi, saya memiliki hobi yang cukup umum dikalangan anak muda yaitu bermain game. Selain itu saya juga hobi menggambar ataupun sekedar editing photo/video yang sederhana. Tidak ada satupun dari hobi saya yang terkait dengan Rekayasa Perangkat Lunak karena memang minat saya tidak pada bidang tersebut.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- /About Me -->
+
+    <!-- Portofolio -->
+    <section id="portofolio" class="bg-dark text-light pt-4">
+  <div class="container">
+    <h2 class="text-center mb-5">Portofolio</h2>
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        <h3 class="mb-3">Projek Kuliah</h3>
+        <p>Program yang saya buat berdasarkan tugas-tugas kuliah yang pernah diberikan khususnya pada mata kuliah Pemrograman Web Lanjut. Dalam projek ini hanya berisi latihan-latihan terkait fitur CRUD, dsb. </p>
+        <a class="btn btn-primary" href="https://github.com/naufalrz-qi/pemrog-web-lanjut">View Project</a>
+      </div>
+      <div class="col-md-4 mb-5">
+        <h3 class="mb-3">Projek KKP</h3>
+        <p>Projek yang saya kembangkan untuk instansi tempat saya magang atas permintaan dari instansi tersebut. Untuk saat ini, projek ini masih dalam tahap pengembangan.</p>
+        <a class="btn btn-primary" href="https://github.com/naufalrz-qi/Aplikasi-BK-Lrv8">View Project</a>
+      </div>
+      <div class="col-md-4 mb-5">
+        <h3 class="mb-3">Aplikasi Toko Mainan</h3>
+        <p>Aplikasi ini adalah hasil dari ujian akhir semester pada mata kuliah pemrograman Mobile Lanjut yang dikembangkan oleh dua orang yaitu saya dan Satriawan Muslim.</p>
+        <a class="btn btn-primary" href="https://drive.google.com/drive/u/0/folders/1wwasUneaIXemnbHo4tN9ZIX1zcedkZB1">View Project</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /Portofolio -->
+
+<!-- Achievement -->
+<section id="achievement" class="bg-primary text-light pt-4">
+  <div class="container">
+    <h2 class="text-center mb-5">My Achievement</h2>
+    <div class="row">
+      <div class="col-md-3 mb-5">
+       
+      </div>
+      <div class="col-md-6 mb-5">
+        <img class="img-fluid" src="img/achv.jpg" alt="">
+        <h3 class="mb-3">Juara 2 Lomba Kompetensi Siswa Bidang IT Network Tingkat Provinsi</h3>
+        <p>Saya berhasil lolos seleksi dari sekolah kemudian tingkat kabupaten hanya dengan modal materi atau pengetahuan yang saya pelajari dalam waktu 1 minggu.  Kemudian selang 2 minggu sebelum lomba tingkat provinsi dimulai saya mulai memperdalam lagi materi atau sesuatu yang akan keluar saat lomba nanti. Walauapun persiapannya sangat mendadak, tapi saya cukup kaget karena mendapatkan juara 2.</p>
+        
+      </div>
+      <div class="col-md-3 mb-5">
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /Achievement -->
+
+<!-- Contact -->
+<section id="contact" class="bg-light pt-4 pb-4">
+  <div class="container">
+    <h2 class="text-center mb-5">Contact Me</h2>
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /Contact -->
+
+<!-- Footer -->
+<footer class="text-center text-white" style="background-color: #f1f1f1;">
+
+  <!-- Copyright -->
+  <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-dark" href="#">Naufal Rifqi Zuhrian</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+<!-- /Footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
